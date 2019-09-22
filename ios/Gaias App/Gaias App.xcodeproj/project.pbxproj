@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAFAA29C2337E88F00110968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA29B2337E88F00110968 /* AppDelegate.swift */; };
+		CAFAA29E2337E88F00110968 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA29D2337E88F00110968 /* FirstViewController.swift */; };
+		CAFAA2A02337E88F00110968 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA29F2337E88F00110968 /* SecondViewController.swift */; };
+		CAFAA2A32337E88F00110968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFAA2A12337E88F00110968 /* Main.storyboard */; };
+		CAFAA2A52337E88F00110968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFAA2A42337E88F00110968 /* Assets.xcassets */; };
+		CAFAA2A82337E88F00110968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFAA2A62337E88F00110968 /* LaunchScreen.storyboard */; };
+		CAFAA2B32337E88F00110968 /* Gaias_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA2B22337E88F00110968 /* Gaias_AppTests.swift */; };
+		CAFAA2BE2337E88F00110968 /* Gaias_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA2BD2337E88F00110968 /* Gaias_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFAA2AF2337E88F00110968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFAA2902337E88F00110968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFAA2972337E88F00110968;
+			remoteInfo = "Gaias App";
+		};
+		CAFAA2BA2337E88F00110968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFAA2902337E88F00110968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFAA2972337E88F00110968;
+			remoteInfo = "Gaias App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAFAA2982337E88F00110968 /* Gaias App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gaias App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFAA29B2337E88F00110968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAFAA29D2337E88F00110968 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CAFAA29F2337E88F00110968 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CAFAA2A22337E88F00110968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAFAA2A42337E88F00110968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFAA2A72337E88F00110968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAFAA2A92337E88F00110968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFAA2AE2337E88F00110968 /* Gaias AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaias AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFAA2B22337E88F00110968 /* Gaias_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaias_AppTests.swift; sourceTree = "<group>"; };
+		CAFAA2B42337E88F00110968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFAA2B92337E88F00110968 /* Gaias AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaias AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFAA2BD2337E88F00110968 /* Gaias_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaias_AppUITests.swift; sourceTree = "<group>"; };
+		CAFAA2BF2337E88F00110968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFAA2952337E88F00110968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFAA2AB2337E88F00110968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFAA2B62337E88F00110968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFAA28F2337E88F00110968 = {
+			isa = PBXGroup;
+			children = (
+				CAFAA29A2337E88F00110968 /* Gaias App */,
+				CAFAA2B12337E88F00110968 /* Gaias AppTests */,
+				CAFAA2BC2337E88F00110968 /* Gaias AppUITests */,
+				CAFAA2992337E88F00110968 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFAA2992337E88F00110968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFAA2982337E88F00110968 /* Gaias App.app */,
+				CAFAA2AE2337E88F00110968 /* Gaias AppTests.xctest */,
+				CAFAA2B92337E88F00110968 /* Gaias AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFAA29A2337E88F00110968 /* Gaias App */ = {
+			isa = PBXGroup;
+			children = (
+				CAFAA29B2337E88F00110968 /* AppDelegate.swift */,
+				CAFAA29D2337E88F00110968 /* FirstViewController.swift */,
+				CAFAA29F2337E88F00110968 /* SecondViewController.swift */,
+				CAFAA2A12337E88F00110968 /* Main.storyboard */,
+				CAFAA2A42337E88F00110968 /* Assets.xcassets */,
+				CAFAA2A62337E88F00110968 /* LaunchScreen.storyboard */,
+				CAFAA2A92337E88F00110968 /* Info.plist */,
+			);
+			path = "Gaias App";
+			sourceTree = "<group>";
+		};
+		CAFAA2B12337E88F00110968 /* Gaias AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFAA2B22337E88F00110968 /* Gaias_AppTests.swift */,
+				CAFAA2B42337E88F00110968 /* Info.plist */,
+			);
+			path = "Gaias AppTests";
+			sourceTree = "<group>";
+		};
+		CAFAA2BC2337E88F00110968 /* Gaias AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFAA2BD2337E88F00110968 /* Gaias_AppUITests.swift */,
+				CAFAA2BF2337E88F00110968 /* Info.plist */,
+			);
+			path = "Gaias AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFAA2972337E88F00110968 /* Gaias App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFAA2C22337E88F00110968 /* Build configuration list for PBXNativeTarget "Gaias App" */;
+			buildPhases = (
+				CAFAA2942337E88F00110968 /* Sources */,
+				CAFAA2952337E88F00110968 /* Frameworks */,
+				CAFAA2962337E88F00110968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gaias App";
+			productName = "Gaias App";
+			productReference = CAFAA2982337E88F00110968 /* Gaias App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFAA2AD2337E88F00110968 /* Gaias AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFAA2C52337E88F00110968 /* Build configuration list for PBXNativeTarget "Gaias AppTests" */;
+			buildPhases = (
+				CAFAA2AA2337E88F00110968 /* Sources */,
+				CAFAA2AB2337E88F00110968 /* Frameworks */,
+				CAFAA2AC2337E88F00110968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFAA2B02337E88F00110968 /* PBXTargetDependency */,
+			);
+			name = "Gaias AppTests";
+			productName = "Gaias AppTests";
+			productReference = CAFAA2AE2337E88F00110968 /* Gaias AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFAA2B82337E88F00110968 /* Gaias AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFAA2C82337E88F00110968 /* Build configuration list for PBXNativeTarget "Gaias AppUITests" */;
+			buildPhases = (
+				CAFAA2B52337E88F00110968 /* Sources */,
+				CAFAA2B62337E88F00110968 /* Frameworks */,
+				CAFAA2B72337E88F00110968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFAA2BB2337E88F00110968 /* PBXTargetDependency */,
+			);
+			name = "Gaias AppUITests";
+			productName = "Gaias AppUITests";
+			productReference = CAFAA2B92337E88F00110968 /* Gaias AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFAA2902337E88F00110968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Gaia's People (aka SolSeed)";
+				TargetAttributes = {
+					CAFAA2972337E88F00110968 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CAFAA2AD2337E88F00110968 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAFAA2972337E88F00110968;
+					};
+					CAFAA2B82337E88F00110968 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAFAA2972337E88F00110968;
+					};
+				};
+			};
+			buildConfigurationList = CAFAA2932337E88F00110968 /* Build configuration list for PBXProject "Gaias App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFAA28F2337E88F00110968;
+			productRefGroup = CAFAA2992337E88F00110968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFAA2972337E88F00110968 /* Gaias App */,
+				CAFAA2AD2337E88F00110968 /* Gaias AppTests */,
+				CAFAA2B82337E88F00110968 /* Gaias AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFAA2962337E88F00110968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFAA2A82337E88F00110968 /* LaunchScreen.storyboard in Resources */,
+				CAFAA2A52337E88F00110968 /* Assets.xcassets in Resources */,
+				CAFAA2A32337E88F00110968 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFAA2AC2337E88F00110968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFAA2B72337E88F00110968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFAA2942337E88F00110968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFAA2A02337E88F00110968 /* SecondViewController.swift in Sources */,
+				CAFAA29C2337E88F00110968 /* AppDelegate.swift in Sources */,
+				CAFAA29E2337E88F00110968 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFAA2AA2337E88F00110968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFAA2B32337E88F00110968 /* Gaias_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFAA2B52337E88F00110968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFAA2BE2337E88F00110968 /* Gaias_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFAA2B02337E88F00110968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFAA2972337E88F00110968 /* Gaias App */;
+			targetProxy = CAFAA2AF2337E88F00110968 /* PBXContainerItemProxy */;
+		};
+		CAFAA2BB2337E88F00110968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFAA2972337E88F00110968 /* Gaias App */;
+			targetProxy = CAFAA2BA2337E88F00110968 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAFAA2A12337E88F00110968 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFAA2A22337E88F00110968 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAFAA2A62337E88F00110968 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFAA2A72337E88F00110968 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFAA2C02337E88F00110968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAFAA2C12337E88F00110968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFAA2C32337E88F00110968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQZ2W5S8TT;
+				INFOPLIST_FILE = "Gaias App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "solseed.org.Gaias-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFAA2C42337E88F00110968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQZ2W5S8TT;
+				INFOPLIST_FILE = "Gaias App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "solseed.org.Gaias-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAFAA2C62337E88F00110968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQZ2W5S8TT;
+				INFOPLIST_FILE = "Gaias AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "solseed.org.Gaias-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaias App.app/Gaias App";
+			};
+			name = Debug;
+		};
+		CAFAA2C72337E88F00110968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQZ2W5S8TT;
+				INFOPLIST_FILE = "Gaias AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "solseed.org.Gaias-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaias App.app/Gaias App";
+			};
+			name = Release;
+		};
+		CAFAA2C92337E88F00110968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQZ2W5S8TT;
+				INFOPLIST_FILE = "Gaias AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "solseed.org.Gaias-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gaias App";
+			};
+			name = Debug;
+		};
+		CAFAA2CA2337E88F00110968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQZ2W5S8TT;
+				INFOPLIST_FILE = "Gaias AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "solseed.org.Gaias-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gaias App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFAA2932337E88F00110968 /* Build configuration list for PBXProject "Gaias App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFAA2C02337E88F00110968 /* Debug */,
+				CAFAA2C12337E88F00110968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFAA2C22337E88F00110968 /* Build configuration list for PBXNativeTarget "Gaias App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFAA2C32337E88F00110968 /* Debug */,
+				CAFAA2C42337E88F00110968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFAA2C52337E88F00110968 /* Build configuration list for PBXNativeTarget "Gaias AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFAA2C62337E88F00110968 /* Debug */,
+				CAFAA2C72337E88F00110968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFAA2C82337E88F00110968 /* Build configuration list for PBXNativeTarget "Gaias AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFAA2C92337E88F00110968 /* Debug */,
+				CAFAA2CA2337E88F00110968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFAA2902337E88F00110968 /* Project object */;
+}
